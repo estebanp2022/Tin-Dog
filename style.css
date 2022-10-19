@@ -11,6 +11,22 @@ body {
   align-items: center;
 }
 
+#card .dog-img {
+  width: 100%;
+}
+
+#card {
+  position: relative;
+  width: 100%;
+}
+
+.dog-info {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 10px;
+}
+
 #container {
   width: 500px;
   margin: 0 auto;
@@ -46,10 +62,10 @@ body {
 
 /* Middle section */
 
-#dog-pic {
+/* #dog-pic {
   width: 100%;
   border-radius: 10px;
-}
+} */
 
 /* Bottom Section */
 

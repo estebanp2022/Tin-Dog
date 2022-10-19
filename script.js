@@ -1,15 +1,23 @@
 import { dogs } from "./data.js";
-import { Dog } from "./dogs.js";
+import { Dog } from "./Dog.js";
 
-const likeBtn = document.getElementById("like");
-const passBtn = document.getElementById("pass");
+let currentDogIndex = 0;
+let currentDog = new Dog(dogs[currentDogIndex]);
+document.getElementById("accept-button").addEventListener("click", yes);
 
-likeBtn.addEventListener("click", function () {
-  console.log("like is working!");
-});
+render();
 
-passBtn.addEventListener("click", function () {
-  console.log("pass is working!");
-});
+function render() {
+  document.getElementById("card").innerHTML = currentDog.getDogHtml();
+}
 
-new Dog(dogs);
+function getNewDog() {
+  currentDogIndex += 1;
+  currentDog = new Dog(dogs[currentDogIndex]);
+  render();
+}
+
+function yes() {
+  currentDog.setMatchStatus(true);
+  getNewDog();
+}

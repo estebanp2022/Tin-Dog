@@ -1,5 +1,10 @@
 export class Dog {
-  constructor(data) {
-    this.data = data;
+  constructor(name, avatar, age, bio) {
+    this.name = name;
+    this.avatar = avatar;
+    this.age = age;
+    this.bio = bio;
   }
+
+  renderDog() {}
 }

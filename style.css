@@ -9,6 +9,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(95, 4, 157);
+  background: linear-gradient(
+    14deg,
+    rgba(95, 4, 157, 1) 0%,
+    rgba(255, 56, 56, 1) 50%,
+    rgba(252, 236, 69, 1) 100%
+  );
 }
 
 #card .dog-img {
@@ -69,15 +76,19 @@ body {
 
 /* Bottom Section */
 
-#buttons {
+.buttons {
   display: flex;
   justify-content: center;
 }
 
-#buttons img {
+button {
   background-color: white;
-  margin: 10px;
-  padding: 15px;
+  border: none;
+  margin: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   border-radius: 50px;
 }
 

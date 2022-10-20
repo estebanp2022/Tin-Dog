@@ -3,7 +3,7 @@ import { Dog } from "./Dog.js";
 
 let currentDogIndex = 0;
 let currentDog = new Dog(dogs[currentDogIndex]);
-document.getElementById("accept-button").addEventListener("click", yes);
+document.getElementById("like").addEventListener("click", yes);
 
 render();
 

@@ -5,7 +5,7 @@ export class Dog {
 
   setMatchStatus(bool) {
     this.hasBeenLiked = bool;
-    this.hasBeenSwiped = true;
+    this.hasBeenSwiped = bool;
   }
 
   getDogHtml() {

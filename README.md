@@ -15,7 +15,7 @@ Puppy dating app! This is a project from a Scrimba course.
 
 ### Links
 
-[Click Here For Live Site URL](https://stunning-monstera-dd8b17.netlify.app/)
+[Click Here For Live Site URL](https://bright-toffee-a2d923.netlify.app/)
 
 ### Built with
 

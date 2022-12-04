@@ -29,7 +29,7 @@ function yes() {
   setTimeout(getNewDog, 1000);
 
   if (currentDogIndex === dogs.length - 1) {
-    currentDogIndex -= 3;
+    currentDogIndex -= 4;
   }
 }
 
@@ -40,6 +40,6 @@ function no() {
   setTimeout(getNewDog, 1000);
 
   if (currentDogIndex === dogs.length - 1) {
-    currentDogIndex -= 3;
+    currentDogIndex -= 4;
   }
 }

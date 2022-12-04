@@ -2,7 +2,7 @@ export const dogs = [
   {
     name: "Rex",
     avatar: "images/dog-rex.jpg",
-    age: 25,
+    age: 5,
     bio: "Art. Literature. Natural wine. Yoga.",
     hasBeenSwiped: false,
     hasBeenLiked: false,
@@ -10,7 +10,7 @@ export const dogs = [
   {
     name: "Bella",
     avatar: "images/dog-bella.jpg",
-    age: 43,
+    age: 3,
     bio: "U can meet my owner if you want",
     hasBeenSwiped: false,
     hasBeenLiked: false,
@@ -18,8 +18,16 @@ export const dogs = [
   {
     name: "Teddy",
     avatar: "images/dog-teddy.jpg",
-    age: 30,
+    age: 8,
     bio: "How you doin?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Pancho",
+    avatar: "images/dog-pancho.jpeg",
+    age: 10,
+    bio: "Got treats?",
     hasBeenSwiped: false,
     hasBeenLiked: false,
   },
